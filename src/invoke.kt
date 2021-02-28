@@ -1,7 +1,11 @@
 fun main() {
     name()
+
     var answer = modulus(40,3)
     println(answer)
+
+    var result = add(30,40,70,80)
+    println(result)
 }
 
 fun name() {
@@ -13,4 +17,10 @@ fun modulus(num1:Int,num2:Int):Int {
     var remainder = num1 % num2
 
     return remainder
+}
+
+fun add(a:Int,b:Int,c:Int,d:Int):Int {
+    var sum = a + b + c + d
+
+    return sum
 }
