@@ -8,7 +8,7 @@ fun main() {
 }
 
 fun name() {
-    var name = "Juliet"
+    val name = "Juliet"
     println("Hello" + " " + name)
 }
 
